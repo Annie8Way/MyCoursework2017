@@ -44,6 +44,7 @@ block:
   align: center
   margin_top: 0
   margin_bottom: 1.5
+  caption_side: bottom
 
 caption:
   align: center
@@ -51,6 +52,7 @@ caption:
   font_style: normal
   margin_inside: 4
   margin_outside: 0
+  side: bottom
 
 code:
   font_family: Roman
@@ -75,7 +77,7 @@ table:
     color: 000000
     style: solid
     width: 0.5
-  caption_side: top
+  caption_side: bottom
   cell_padding: [1mm, 2mm, 0mm, 2mm]
   head_font_style: bold
 
