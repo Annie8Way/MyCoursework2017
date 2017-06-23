@@ -33,8 +33,14 @@ heading:
   line_height: 1.5
   margin_bottom: 1.5
   h2_font_size: $base_font_size
+  h2_text_transform: uppercase
   h3_font_size: $base_font_size
-  h3_font_style: bold_italic
+  h3_font_style: bold
+  h4_font_size: $base_font_size
+  h4_font_style: bold_italic
+
+paragraph:
+  indent: 1.25
 
 prose:
   margin_top: 0
@@ -42,8 +48,8 @@ prose:
 
 block:
   align: center
-  margin_top: 0
-  margin_bottom: 1.5
+  margin_top: 15
+  margin_bottom: 15
   caption_side: bottom
 
 caption:
@@ -52,7 +58,6 @@ caption:
   font_style: normal
   margin_inside: 4
   margin_outside: 0
-  side: bottom
 
 code:
   font_family: Roman
@@ -77,9 +82,21 @@ table:
     color: 000000
     style: solid
     width: 0.5
-  caption_side: bottom
+  caption_side: top
   cell_padding: [1mm, 2mm, 0mm, 2mm]
   head_font_style: bold
+
+toc:
+  line_height: 1.5
+  indent: 15
+  h2:
+    font_style: bold
+  h3:
+    font_style: bold
+  h4:
+    font_style: normal
+  dot_leader:
+    levels: none
 
 footer:
   height: 2cm
