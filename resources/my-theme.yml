@@ -84,7 +84,7 @@ table:
     color: 000000
     style: solid
     width: 0.5
-  caption_side: top
+  caption_align: right
   cell_padding: [1mm, 2mm, 0mm, 2mm]
   head_font_style: bold
 
@@ -104,8 +104,8 @@ footer:
   height: 2cm
   border: none
   recto:
-    right:
+    center:
       content: '{page-number}'
   verso:
-    right:
+    center:
       content: '{page-number}'
